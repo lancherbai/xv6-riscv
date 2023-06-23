@@ -132,7 +132,17 @@ UPROGS=\
 	$U/_grind\
 	$U/_wc\
 	$U/_zombie\
-	_test_getyear\
+	$U/_test_getyear\
+	$U/_copy\
+	$U/_echo\
+	$U/_exec\
+	$U/_fork\
+	$U/_forkexec\
+	$U/_list\
+	$U/_open\
+	$U/_pipe1\
+	$U/_pipe2\
+	$U/_redirect\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
